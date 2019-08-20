@@ -27,7 +27,7 @@ func encodeFromStdin(noNewline bool) {
 	}
 	keyInput := []byte(keyStr)
 	if len(keyInput) > 32 {
-		panic("Password is more than 32 bytes")
+		panic(fmt.Errorf("Password is %d bytes, more than 32 bytes", len(keyInput)))
 	}
 	key := make([]byte, 32)
 	copy(key[:len(keyInput)], keyInput)
@@ -57,7 +57,7 @@ func decodeFromStdin(noNewline bool) {
 	}
 	keyInput := []byte(keyStr)
 	if len(keyInput) > 32 {
-		panic("Password is more than 32 bytes")
+		panic(fmt.Errorf("Password is %d bytes, more than 32 bytes", len(keyInput)))
 	}
 	key := make([]byte, 32)
 	copy(key[:len(keyInput)], keyInput)
