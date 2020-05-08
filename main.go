@@ -21,7 +21,7 @@ func encodeFromStdin(noNewline bool) {
 		zeros := bytes.Repeat([]byte{0}, 16-len(input))
 		input = append(input, zeros...)
 	}
-	keyStr, err := askpass.Askpass("Password: ", true)
+	keyStr, err := askpass.Askpass("Password: ", true, "Password again: ")
 	if err != nil {
 		panic(err)
 	}
@@ -51,7 +51,7 @@ func decodeFromStdin(noNewline bool) {
 		zeros := bytes.Repeat([]byte{0}, 16-len(input))
 		input = append(input, zeros...)
 	}
-	keyStr, err := askpass.Askpass("Password", false)
+	keyStr, err := askpass.Askpass("Password", false, "")
 	if err != nil {
 		panic(err)
 	}

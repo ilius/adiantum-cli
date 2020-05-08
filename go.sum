@@ -2,6 +2,8 @@ github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da h1:KjTM2ks9d14ZYCvmH
 github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da/go.mod h1:eHEWzANqSiWQsof+nXEI9bUVUyV6F53Fp89EuCh2EAA=
 github.com/ilius/go-askpass v0.0.0-20200508040508-282fb9840b04 h1:FkehsizmWjx2VxiNdd7CyUl6pSIFmpdyyhft8nMrzgk=
 github.com/ilius/go-askpass v0.0.0-20200508040508-282fb9840b04/go.mod h1:fCyDgcPDqEpzbwCsV7zWuTG4/rr76WSZXu8TN2x9zw0=
+github.com/ilius/go-askpass v0.0.0-20200508042710-20582c65dc9e h1:kVpWo//5dvHVzZVeCxGUZWhfZteczZiyL8ITl6o36VY=
+github.com/ilius/go-askpass v0.0.0-20200508042710-20582c65dc9e/go.mod h1:fCyDgcPDqEpzbwCsV7zWuTG4/rr76WSZXu8TN2x9zw0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
